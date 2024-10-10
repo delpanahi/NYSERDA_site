@@ -2,12 +2,70 @@
 
 <html>
 
-<h1>ɴᴇᴡ ʏᴏʀᴋ ꜱᴛᴀᴛᴇ ᴇɴᴇʀɢʏ ʀᴇꜱᴇᴀʀᴄʜ ᴀɴᴅ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴀᴜᴛʜᴏʀɪᴛʏ</h1>
+<title> CU HEAT NYSERDA Survey</title>
+<body style="background-color: #004F42;"></body>
 
+<head>
+    <style>
+    h1 {
+        font-size: 30px;
+        color: #FFFF00;
+    }
+    
+    h1.small {
+        line-height: 1.0;
+    }
+    
+    h2 {
+        font-size: 20px;
+        color: #FFFF00;
+    }
+    
+    h2.small {
+        line-height: 1.5;
+    }
+    
+    body {
+        font-size: 15px;
+        color: #FFFF00;
+    }
+    
+    body.big {
+        line-height: 1.8;
+    }
+
+    input[type="text"] {
+        background-color: #003F32;
+        color: #FFFF00;
+    }
+    
+    input[type="number"] {
+        background-color: #003F32;
+        color: #FFFF00;
+    }
+
+    </style>
+</head>
+
+<h1>ɴᴇᴡ ʏᴏʀᴋ ꜱᴛᴀᴛᴇ ᴇɴᴇʀɢʏ ʀᴇꜱᴇᴀʀᴄʜ ᴀɴᴅ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴀᴜᴛʜᴏʀɪᴛʏ</h1>
 
 <div id = "Input">
 
-    <h3> Housing Information </h3>
+    <h2> Demographic Information </h2>
+
+    <p> 1. What is your name? </p>
+    <input type="text" id="nameUser" name="nameUser">
+
+    <p> 2. What is your address? </p>
+    <input type="text" id="homeAddress" name="homeAddress">
+
+    <p> 3. What is your email address? </p>
+    <input type="text" id="emailAddress" name="emailAddress">
+
+    <p> 4. What is your phone number? </p>
+    <input type="text" id="phoneNum" name="phoneNum">
+
+    <h2> Housing Information </h2>
 
     <p> 1. When was your house constructed? </p>
     <input type="text" id="year" name="year">
@@ -32,7 +90,10 @@
     <input class = "single-checkbox" type="checkbox" id="attic" name="attic" value="no">
     <label for="attic"> No </label><br>
 
-    <p> 5. Including the basement, how many floors does your house have? </p>
+    <p> 5. If applicable, how many inches of insulation does your attic have? </p>
+    <input type="number" id="atticIns" name="atticIns">
+
+    <p> 6. Including the basement, how many floors does your house have? </p>
     <input class = "single-checkbox" type="checkbox" id="floors" name="floors" value="one">
     <label for="floors"> One </label><br>
 
@@ -42,10 +103,26 @@
     <input class = "single-checkbox" type="checkbox" id="floors" name="floors" value="three">
     <label for="floors"> Three </label><br>
 
-    <p> 6. What is the square footage of your house? </p>
+    <p> 7. What is the square footage of your house? </p>
     <input type="number" id="sqfoot" name="sqfoot">
 
-    <h3> Heating System Information </h3>
+    <p> 8. What exterior-adjacent wall type does your house have? </p>
+    <input class="single-checkbox" type="checkbox" id="walls" name="walls" value="metal">
+    <label for="walls"> Sheet Metal </label><br>
+    
+    <input class="single-checkbox" type="checkbox" id="walls" name="walls" value="brick">
+    <label for="walls"> Bricks </label><br>
+
+    <input class="single-checkbox" type="checkbox" id="walls" name="walls" value="stone">
+    <label for="walls"> Stone </label><br>
+
+    <input class="single-checkbox" type="checkbox" id="walls" name="walls" value="logs">
+    <label for="walls"> Wood Logs </label><br>
+
+    <input class="single-checkbox" type="checkbox" id="walls" name="walls" value="wood">
+    <label for="walls"> Wood and Vinyl </label><br>
+
+    <h2> Heating System Information </h2>
     
     <p> 1. Please select the type of primary heating system you use in your home: </p>
     <input class = "single-checkbox"type="checkbox" id="heating" name="heating" value="heatpump">
@@ -74,7 +151,7 @@
     <label for="fuel"> Oil </label><br>
 
     <p> 3. What is the rated efficiency percentage of your home heating system? </p>
-    <input type="number" id="homeEfic" name="homeEfic">
+    <input type="number" id="homeEffic" name="homeEffic">
 
     <p> 4. Please select the type of fuel your water heating system uses: </p>
     <input class = "single-checkbox"type="checkbox" id="fuel" name="fuel" value="gas">
@@ -93,8 +170,58 @@
     <label for="fuel"> Oil </label><br>
 
     <p> 5. What is the rated efficiency of your water heating system? </p>
-    <input type="number" id="waterEfic" name="waterEfic">
+    <input type="number" id="waterEffic" name="waterEffic">
+
+    <h2> Cooling System Information </h2>
+
+    <p> 1. What cooling system does your house have? </p>
+    <input class = "single-checkbox" type="checkbox" id="cooling" name="cooling" value="central">
+    <label for="cooling"> Central Air Unit </label><br>
+
+    <input class="single-checkbox" type="checkbox" id="cooling" name="cooling" value="window">
+    <label for="cooling"> Window Unit </label><br>
+
+    <input class="single-checkbox" type="checkbox" id="cooling" name="cooling" value="heatpump">
+    <label for="cooling"> Heat Pump </label><br>
+
+    <p> 2. What is the percent efficiency rating of your cooling system? </p>
+    <input type="number" id="coolEffic" name="coolEffic">
+
+    <h2> Lighting System Information </h2>
+
+    <p> 1. What type of lights do you use? </p>
+    <input class="single-checkbox" type="checkbox" id="lightType" name="lightType" value="incandescent">
+    <label for="lightType"> Incandescent </label><br>
+
+    <input class="single-checkbox" type="checkbox" id="lightType" name="lightType" value="LED">
+    <label for="lightType"> LED </label><br>
+
+    <p> 2. What is the wattage of your light bulbs? </p>
+    <input type="number" id="lightWattage" name="lightWattage">
+
+    <p> 3. What type of lighting system do you use? </p>
+    <input class="single-checkbox" type="checkbox" id="lightSys" name="lightSys" value="manual">
+    <label for="lightSys"> Manual </label><br>
+
+    <input class="single-checkbox" type="checkbox" id="lightSys" name="lightSys" value="automatic">
+    <label for="lightSys"> Automatic </label><br>
+    
+    <input class="single-checkbox" type="checkbox" id="lightSys" name="lightSys" value="timed">
+    <label for="lightSys"> Timed </label><br>
+
+    <h2> Consumption and Cost Information </h2>
+
+    <p> 1. How much fuel to you consume monthly for heating? </p>
+    <input type="text" id="fuelCons" name="fuelCons">
+
+    <p> 2. How much is your average monthly fuel expense? </p>
+    <input type="number" id="fuelCost" name="fuelCost">
+
+    <p> 3. How much electricity do you use monthly? </p>
+    <input type="text" id="elecCons" name="elecCons">
+
+    <p> 4. How much is your average monthly electricity expense? </p>
+    <input type="number" id="elecCost" name="elecCost">
 
     <div>
-
 </html>
