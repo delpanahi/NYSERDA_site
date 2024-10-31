@@ -11,7 +11,7 @@
 header{
     width: 100%;
     height: 100vh;
-    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)) , url("/Users/delarapanahi/Documents/NYSERDA_site/greenback.jpeg");
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)) , url("greenback.jpeg");
     background-size: cover;
     background-position: center; /* Centers the image */
     background-repeat: no-repeat;
@@ -21,7 +21,7 @@ header{
 body {
     width: 100%;
     height: 100vh;
-    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)) , url("/Users/delarapanahi/Documents/NYSERDA_site/greenback.jpeg");
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)) , url("greenback.jpeg");
     background-size: cover;
     background-position: center; /* Centers the image */
     background-repeat: no-repeat;
@@ -47,7 +47,7 @@ nav{
     text-decoration: none;
     color: #fff;
     padding: 10px 20px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .menu a:hover{
@@ -63,9 +63,10 @@ nav{
 
 .h-text3{
     position: absolute;
-    top: 35%;
-    left: 25%;
-    max-width: 800px;
+    top: 37.5%;
+    left: 30%;
+    max-width: 55%;
+    max-height: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
     color: #DAA520;
@@ -73,29 +74,31 @@ nav{
 
 .h-text{
     position: absolute;
-    top: 70%;
-    left: 25%;
-    max-width: 650px;
+    top: 75%;
+    left: 30%;
+    max-width: 45%;
+    max-height: 70%;
     transform: translate(-50%,-50%);
     text-align: center;
     color: #fff;
 }
 
 .h-text2{
-    position: absolute;
+    /* position: absolute;
     top: 15%;
-    left: 70%;
-    max-width: 800px;
-    transform: translate(-50%,-50%);
-    text-align: left;
+    left: 75%;
+    max-width: 70%;
+    transform: translate(-50%,-50%); */
+    text-align: center;
     color: #fff;
 }
 
 .h-text1{
     position: absolute;
-    top: 50%;
-    left: 70%;
-    max-width: 840px;
+    top: 40%;
+    left: 75%;
+    max-width: 70%;
+    max-height: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
     color: #DAA520;

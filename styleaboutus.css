@@ -11,7 +11,7 @@
 header{
     width: 100%;
     height: 100vh;
-    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)) , url("/Users/delarapanahi/Documents/NYSERDA_site/greenback.jpeg");
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)) , url("greenback.jpeg");
     background-size: cover;
     background-position: center; /* Centers the image */
     background-repeat: no-repeat;
@@ -21,7 +21,7 @@ header{
 body {
     width: 100%;
     height: 100vh;
-    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)) , url("/Users/delarapanahi/Documents/NYSERDA_site/greenback.jpeg");
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)) , url("greenback.jpeg");
     background-size: cover;
     background-position: center; /* Centers the image */
     background-repeat: no-repeat;
@@ -50,7 +50,7 @@ nav{
     text-decoration: none;
     color: #fff;
     padding: 10px 20px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .menu a:hover{
@@ -69,14 +69,14 @@ nav{
     position: absolute;
     top: 45%;
     left: 8%;
-    max-width: 500px;
+    max-width: 8%;
     transform: translate(-50%,-50%);
     text-align: center;
     color: #fff;
 
     img {
-        width: 600px;
-        height: 300px;
+        width: 100%;
+        height: 100%;
     }
 }
 
@@ -84,79 +84,95 @@ nav{
 .h-text2{
     position: absolute;
     top: 45%;
-    left: 38%;
-    max-width: 500px;
+    left: 36%;
+    max-width: 8%;
     transform: translate(-50%,-50%);
     text-align: center;
     color: #fff;
 
     img {
-        width: 600px;
-        height: 300px;
+        width: 100%;
+        height: 100%;
     }
 }
 
 /* logan */
 .h-text1{
     position: absolute;
-    top: 43%;
-    left: 23%;
-    max-width: 500px;
+    top: 45%;
+    left: 22%;
+    max-width: 8%;
     transform: translate(-50%,-50%);
     text-align: center;
     color: #fff;
 
     img {
-        width: 600px;
-        height: 300px;
+        width: 100%;
+        height: 100%;
     }
 }
 
 /* ben */
 .h-text3{
     position: absolute;
-    top: 43%;
-    left: 53%;
-    max-width: 500px;
+    top: 45%;
+    left: 50%;
+    max-width: 8%;
     transform: translate(-50%,-50%);
     text-align: center;
     color: #fff;
 
     img {
-        height: 300px;
-        width: 500px;
+        height: 100%;
+        width: 100%;
     }
 }
 
 /* aidan */
 .h-text4{
     position: absolute;
-    top: 43%;
-    left: 67.3%;
-    max-width: 700px;
+    top: 45%;
+    left: 64%;
+    max-width: 8%;
     transform: translate(-50%,-50%);
     text-align: center;
     color: #fff;
 
     img {
-        width: 600px;
-        height: 300px;
+        width: 100%;
+        height: 100%;
     }
 }
 
 /* adam */
 .h-text5{
     position: absolute;
-    top: 43%;
-    left: 78.7%;
-    /* max-width: 1500px; */
+    top: 45%;
+    left: 78%;
+    max-width: 8%;
     transform: translate(-50%,-50%);
     text-align: center;
     color: #fff;
 
     img {
-        width: 900px;
-        height: 300px;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* tanner */
+.h-text6{
+    position: absolute;
+    top: 45%;
+    left: 92%;
+    max-width: 8%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+
+    img {
+        width: 100%;
+        height: 100%;
     }
 }
 
