@@ -7,10 +7,9 @@
     box-sizing: border-box;
 }
 
-
 header{
     width: 100%;
-    height: 100vh;
+    height: 1800px;
     background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)) , url("greenback.jpeg");
     background-size: cover;
     background-position: center; /* Centers the image */
@@ -20,7 +19,7 @@ header{
 
 body {
     width: 100%;
-    height: 100vh;
+    height: 1800px;
     background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)) , url("greenback.jpeg");
     background-size: cover;
     background-position: center; /* Centers the image */
@@ -35,15 +34,41 @@ nav{
     width: 100%;
     height: 100px;
   
-    color: #DAA520;
+    color: #FFCD00;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
+h1 {
+    font-size: 30px;
+    color: #FFCD00;
+}
+
+h5 {
+    font-size: 26px;
+    color: #FFFFFF;
+}
+
+h2 {
+    font-size: 18px;
+    color: #FFCD00;
+}
+
+h3 {
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+h4 {
+    font-size: 10px;
+    color: #FFFFFF;
+}
+
 .logo{
     font-size: 2em;
     letter-spacing: 2px;
+    color: #FFCD00;
 }
 
 .menu a{
@@ -54,7 +79,7 @@ nav{
 }
 
 .menu a:hover{
-   border: 1px solid #DAA520;
+   border: 1px solid #FFCD00;
    background: transparent;
 }
 
@@ -64,44 +89,88 @@ nav{
     font-size: 15px;
 }
 
+.about-text{
+    position: absolute;
+    top: 320px;
+    left: 50%;
+    max-width: 75%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #FFFFFF;
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.team1-text{
+    position: absolute;
+    top: 580px;
+    left: 50%;
+    max-width: 100%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+}
+
+.team2-text{
+    position: absolute;
+    top: 1000px;
+    left: 50%;
+    max-width: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+}
+
+.team3-text{
+    position: absolute;
+    top: 1390px;
+    left: 50%;
+    max-width: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+}
+
+/* tanner */
+.h-text6{
+    position: absolute;
+    top: 800px;
+    left: 68%;
+    max-width: 15%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* aidan */
+.h-text4{
+    position: absolute;
+    top: 800px;
+    left: 50%;
+    max-width: 15%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
 /* ethan */
 .h-text{
     position: absolute;
-    top: 45%;
-    left: 8%;
-    max-width: 8%;
-    transform: translate(-50%,-50%);
-    text-align: center;
-    color: #fff;
-
-    img {
-        width: 100%;
-        height: 100%;
-    }
-}
-
-/* delara */
-.h-text2{
-    position: absolute;
-    top: 45%;
-    left: 36%;
-    max-width: 8%;
-    transform: translate(-50%,-50%);
-    text-align: center;
-    color: #fff;
-
-    img {
-        width: 100%;
-        height: 100%;
-    }
-}
-
-/* logan */
-.h-text1{
-    position: absolute;
-    top: 45%;
-    left: 22%;
-    max-width: 8%;
+    top: 800px;
+    left: 32%;
+    max-width: 15%;
     transform: translate(-50%,-50%);
     text-align: center;
     color: #fff;
@@ -115,9 +184,9 @@ nav{
 /* ben */
 .h-text3{
     position: absolute;
-    top: 45%;
-    left: 50%;
-    max-width: 8%;
+    top: 1190px;
+    left: 40.5%;
+    max-width: 15%;
     transform: translate(-50%,-50%);
     text-align: center;
     color: #fff;
@@ -128,12 +197,12 @@ nav{
     }
 }
 
-/* aidan */
-.h-text4{
+/* logan */
+.h-text1{
     position: absolute;
-    top: 45%;
-    left: 64%;
-    max-width: 8%;
+    top: 1190px;
+    left: 59.5%;
+    max-width: 15%;
     transform: translate(-50%,-50%);
     text-align: center;
     color: #fff;
@@ -147,9 +216,9 @@ nav{
 /* adam */
 .h-text5{
     position: absolute;
-    top: 45%;
-    left: 78%;
-    max-width: 8%;
+    top: 1580px;
+    left: 40.5%;
+    max-width: 15%;
     transform: translate(-50%,-50%);
     text-align: center;
     color: #fff;
@@ -160,12 +229,12 @@ nav{
     }
 }
 
-/* tanner */
-.h-text6{
+/* delara */
+.h-text2{
     position: absolute;
-    top: 45%;
-    left: 92%;
-    max-width: 8%;
+    top: 1580px;
+    left: 59.5%;
+    max-width: 15%;
     transform: translate(-50%,-50%);
     text-align: center;
     color: #fff;
@@ -190,6 +259,6 @@ nav{
     transition: 0.4s;
 }
 .h-text a:hover{
-    border: 1px solid #DAA520;
+    border: 1px solid #FFCD00;
     background: transparent;
 }

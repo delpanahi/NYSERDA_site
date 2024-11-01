@@ -32,7 +32,7 @@ nav{
     width: 100%;
     height: 100px;
   
-    color: #DAA520;
+    color: #FFCD00;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -51,7 +51,7 @@ nav{
 }
 
 .menu a:hover{
-   border: 1px solid #DAA520;
+   border: 1px solid #FFCD00;
    background: transparent;
 }
 
@@ -63,18 +63,18 @@ nav{
 
 .h-text3{
     position: absolute;
-    top: 37.5%;
+    top: 300px;
     left: 30%;
     max-width: 55%;
     max-height: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
-    color: #DAA520;
+    color: #FFCD00;
 }
 
 .h-text{
     position: absolute;
-    top: 75%;
+    top: 600px;
     left: 30%;
     max-width: 45%;
     max-height: 70%;
@@ -101,7 +101,7 @@ nav{
     max-height: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
-    color: #DAA520;
+    color: #FFCD00;
 }
 
 .h-text h1{
@@ -118,6 +118,6 @@ nav{
     transition: 0.4s;
 }
 .h-text a:hover{
-    border: 1px solid #DAA520;
+    border: 1px solid #FFCD00;
     background: transparent;
 }
