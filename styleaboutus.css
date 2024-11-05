@@ -43,12 +43,12 @@ h1 {
 }
 
 h5 {
-    font-size: 26px;
+    font-size: 24px;
     color: #FFFFFF;
 }
 
 h2 {
-    font-size: 18px;
+    font-size: 16px;
     color: #FFCD00;
 }
 
@@ -93,7 +93,7 @@ h4 {
 
 .about-text{
     position: absolute;
-    top: 400px;
+    top: 420px;
     left: 50%;
     max-width: 650px;
     transform: translate(-50%,-50%);
@@ -107,7 +107,7 @@ h4 {
 
 .team1-text{
     position: absolute;
-    top: 810px;
+    top: 820px;
     left: 50%;
     max-width: 650px;
     transform: translate(-50%,-50%);
@@ -127,7 +127,7 @@ h4 {
 
 .team3-text{
     position: absolute;
-    top: 1650px;
+    top: 1680px;
     left: 50%;
     max-width: 650px;
     transform: translate(-50%,-50%);
@@ -139,7 +139,7 @@ h4 {
 .h-text6{
     position: absolute;
     top: 1090px;
-    left: 75%;
+    left: 77.5%;
     max-width: 18%;
     max-height: 300px;
     transform: translate(-50%,-50%);
@@ -173,7 +173,7 @@ h4 {
 .h-text{
     position: absolute;
     top: 1090px;
-    left: 25%;
+    left: 22.5%;
     max-width: 18%;
     max-height: 300px;
     transform: translate(-50%,-50%);
@@ -189,7 +189,7 @@ h4 {
 /* ben */
 .h-text3{
     position: absolute;
-    top: 1465px;
+    top: 1485px;
     left: 37.5%;
     max-width: 18%;
     max-height: 300px;
@@ -206,7 +206,7 @@ h4 {
 /* logan */
 .h-text1{
     position: absolute;
-    top: 1465px;
+    top: 1485px;
     left: 62.5%;
     max-width: 18%;
     max-height: 300px;
@@ -223,7 +223,7 @@ h4 {
 /* adam */
 .h-text5{
     position: absolute;
-    top: 1825px;
+    top: 1875px;
     left: 37.5%;
     max-width: 18%;
     max-height: 300px;
@@ -240,7 +240,7 @@ h4 {
 /* delara */
 .h-text2{
     position: absolute;
-    top: 1825px;
+    top: 1875px;
     left: 62.5%;
     max-width: 15%;
     max-height: 300px;
