@@ -63,11 +63,11 @@ nav{
 
 .h-text3{
     position: absolute;
-    top: 385px;
+    top: 350px;
     left: 30%;
     max-width: 55%;
     max-height: 50%;
-    font-size: 14px;
+    font-size: 17px;
     transform: translate(-50%,-50%);
     text-align: center;
     color: #FFCD00;
@@ -75,7 +75,7 @@ nav{
 
 .h-text{
     position: absolute;
-    top: 740px;
+    top: 650px;
     left: 30%;
     max-width: 55%;
     max-height: 90%;
@@ -96,7 +96,7 @@ nav{
 
 .h-text1{
     position: absolute;
-    top: 450px;
+    top: 550px;
     left: 75%;
     max-width: 45%;
     transform: translate(-50%,-50%);

@@ -72,7 +72,7 @@ align-items: center;
 
 .h-text{
     position: absolute;
-    top: 610px;
+    top: 400px;
     left: 50%;
     max-width: 650px;
     transform: translate(-50%,-50%);
