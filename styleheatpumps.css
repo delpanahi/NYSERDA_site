@@ -20,7 +20,7 @@ header{
 
 body {
     width: 100%;
-    height: 1400px;
+    height: 1750px;
     background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)) , url("greenback.jpeg");
     background-size: cover;
     background-position: center; /* Centers the image */
@@ -64,8 +64,8 @@ nav{
 .h-text3{
     position: absolute;
     top: 400px;
-    left: 30%;
-    max-width: 55%;
+    left: 32.5%;
+    max-width: 60%;
     max-height: 50%;
     font-size: 17px;
     transform: translate(-50%,-50%);
@@ -75,9 +75,9 @@ nav{
 
 .h-text{
     position: absolute;
-    top: 1030px;
-    left: 30%;
-    max-width: 55%;
+    top: 1070px;
+    left: 32.5%;
+    max-width: 60%;
     max-height: 90%;
     transform: translate(-50%,-50%);
     text-align: center;
@@ -97,8 +97,8 @@ nav{
 .h-text1{
     position: absolute;
     top: 630px;
-    left: 75%;
-    max-width: 45%;
+    left: 80%;
+    max-width: 42.5%;
     transform: translate(-50%,-50%);
     text-align: center;
     color: #FFCD00;
