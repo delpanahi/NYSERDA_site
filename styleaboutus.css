@@ -139,7 +139,7 @@ h4 {
 .h-text6{
     position: absolute;
     top: 1090px;
-    left: 77.5%;
+    left: 22.5%;
     max-width: 18%;
     max-height: 300px;
     transform: translate(-50%,-50%);
@@ -173,7 +173,7 @@ h4 {
 .h-text{
     position: absolute;
     top: 1090px;
-    left: 22.5%;
+    left: 77.5%;
     max-width: 18%;
     max-height: 300px;
     transform: translate(-50%,-50%);
